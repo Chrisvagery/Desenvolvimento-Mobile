@@ -10,10 +10,27 @@ export default function App() {
   const [temaEscuro, setTemaEscuro] = useState(false);
   const [historico, setHistorico] = useState([]);
 
+  const LIMITE_MINIMO = -10;
+  const LIMITE_MAXIMO = 10;
+
+
+  const atualizarHistorico = (novoValor) => {
+    setHistorico((prevHistorico) => {
+      const novoHistorico = [novoValor, ...prevHistorico];
+      return novoHistorico.length > 5
+        ? novoHistorico.slice(0, 5)
+        : novoHistorico;
+    });
+  };
+
+
   const menos = () => {
     const valor = parseInt(incremento) || 1;
     if (contador > -10) {
-      setContador(contador - valor);
+      const novoValor = contador - valor;
+      setContador = (novoValor);
+      atualizarHistorico(novoValor);
+      //setContador(contador - valor);
       setMensagem("");
     } else {
       setMensagem("Limite mínimo alcançado!");
@@ -23,8 +40,9 @@ export default function App() {
   const mais = () => {
     const valor = parseInt(incremento) || 1;
     setContador(anterior => {
-      if(anterior < 10) {
+      if(anterior  <= 10) {
         const novoValor = anterior + valor;
+        atualizarHistorico(novoValor);
         console.log(novoValor);
         return novoValor;
 
@@ -34,10 +52,13 @@ export default function App() {
       }
     });
   };
+   
+
 
   const reset = () => {
     setContador(0);
     setMensagem("");
+    setHistorico([]);
 
   }
   const toggleTema = () => {
