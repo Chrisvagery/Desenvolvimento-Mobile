@@ -22,18 +22,12 @@ Este projeto foi desenvolvido como parte de um tutorial prático com React Nativ
 8. 🔄Alternância entre câmeras frontal e traseira.
 
 
-📂 Estrutura de arquivos principais
+## 📂 Estrutura de arquivos principais
 
+- ` 📁 app/`
 - `index.jsx`: Tela principal com a câmera ativa para leitura de QR Code.
 - `historico.jsx`: Tela que exibe a lista de QR Codes escaneados.
 - `layout.jsx`: Gerencia a navegação entre as telas com expo-router.
-
-### 📂 Estrutura de arquivos principais
-
- 📁 app/
-├── index.jsx        # Tela principal com a câmera ativa
-├── historico.jsx    # Tela de visualização do histórico
-├── _layout.jsx      # Navegação com expo-router
 
 
 ## 🧪 Tecnologias utilizadas
@@ -61,6 +55,11 @@ Este projeto foi desenvolvido como parte de um tutorial prático com React Nativ
 
 1. Clone este repositório:
 
-```bash
+``
 git clone https://github.com/seu-usuario/leitor-qr-app.git
-cd leitor-qr-app
+cd leitor-qr-app´´
+
+
+2. Instale as dependências:
+
+
