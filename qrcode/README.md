@@ -56,9 +56,9 @@ Este projeto foi desenvolvido como parte de um tutorial prático com React Nativ
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/leitor-qr-app.git
-cd leitor-qr-app
+git clone https://github.com/seu-usuario/QRCodeApp.git
+cd QRCodeApp
 
-2. Instale as dependências:
+
 
 
