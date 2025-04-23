@@ -49,7 +49,10 @@ Este é um aplicativo desenvolvido com **React Native + Expo**, que permite pesq
  1. npx expo start ou npx expo start --tunnel
 
 # 5. Estrutura de Pastas
-.
+
+````markdown
+```
+
 ├── app/
 │   ├── index.js              # Tela inicial (lista de filmes)
 │   ├── movie/[id].js         # Tela de detalhes do filme
@@ -58,6 +61,10 @@ Este é um aplicativo desenvolvido com **React Native + Expo**, que permite pesq
 │   └── MovieCard.js          # Componente reutilizável para cards de filmes
 ├── services/
 │   └── api.js                # Configuração da OMDb API
+├── utils/
+│   └── favorites.js          # Utilitários para favoritos (get, toggle, etc)
 ├── assets/
 │   └── icon.png              # Ícones ou imagens
 └── README.md
+```
+````
