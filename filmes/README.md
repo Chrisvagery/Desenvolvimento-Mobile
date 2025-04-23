@@ -39,8 +39,7 @@ Este é um aplicativo desenvolvido com **React Native + Expo**, que permite pesq
  cd nome-do-repositorio
 
 # 3. Instale as dependências
- ```bash
-npm install
+
 
 
  4.  **Edite diretamente sua chave da OMDb no arquivo api.js)**
