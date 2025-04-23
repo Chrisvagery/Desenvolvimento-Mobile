@@ -35,8 +35,12 @@ Este é um aplicativo desenvolvido com **React Native + Expo**, que permite pesq
 > - Conta na [OMDb API](https://www.omdbapi.com/) para obter uma chave de API gratuita
 
 
- 2. **Acesse o diretório**
- cd nome-do-repositorio
+```markdown
+```bash
+git clone https://github.com/seu-usuario/seu-repo.git
+cd seu-repo
+npm install
+````
 
 # 3. Instale as dependências
  npm install
@@ -47,7 +51,7 @@ Este é um aplicativo desenvolvido com **React Native + Expo**, que permite pesq
 
 # 4. Inicie o projeto
 
- ``
+
  npx expo start ou npx expo start --tunnel
 
 # 5. Estrutura de Pastas
