@@ -34,15 +34,6 @@ Este é um aplicativo desenvolvido com **React Native + Expo**, que permite pesq
 > - Expo CLI (`npm install -g expo-cli`)
 > - Conta na [OMDb API](https://www.omdbapi.com/) para obter uma chave de API gratuita
 
-
-`````markdown
-```
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
-npm install
-````
-```
-
 # 3. Instale as dependências
  npm install
 
