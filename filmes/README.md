@@ -35,14 +35,14 @@ Este é um aplicativo desenvolvido com **React Native + Expo**, que permite pesq
 > - Conta na [OMDb API](https://www.omdbapi.com/) para obter uma chave de API gratuita
 
  3. **Instale as dependências**
- npm install
+
+  npm install
 
  4.  **Edite diretamente sua chave da OMDb no arquivo api.js)**
 
-  const API_KEY = "SUA_CHAVE_OMDB";
+   const API_KEY = "SUA_CHAVE_OMDB";
 
  5. **Inicie o projeto**
-
 
  npx expo start ou npx expo start --tunnel
 
